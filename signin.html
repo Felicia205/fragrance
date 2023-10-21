@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist/bootstrap-5.2.0-beta1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="icons/css/all.css">
+</head>
+<style>
+     * {
+    margin: 0;
+    padding: 0;}
+body{
+    background-image: url(images37.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    .s1{
+        margin-top: 5px;
+        
+    }
+    .container{
+     
+        border: 1px black solid;
+       padding-top: 20px;
+       padding-left: 40px;
+       padding-bottom: 20px;
+        width: 450px;
+       
+    }
+    .heading2{
+        text-align: center;
+        font-size: 40px;
+        font-family: sans-serif;
+       
+    }
+    .link{
+        text-decoration: none;
+    }
+    .btn1{
+        background-color: rgb(195, 37, 98);
+        color: #fff;
+    }
+    .btn1:hover{
+        background-color:  rgb(164, 70, 84);
+    }
+
+    
+    .grid{
+      border: none;
+      padding-left: 0;
+     padding-top: 0;
+     padding-right: 0;
+        width: 450px; 
+    }
+    p{
+        margin-top: 0;
+        margin-bottom: 10px;
+    
+    }
+   .btn2{
+   margin-left: 20px;
+   }
+    
+   @media (max-width: 950px){
+   
+    .container{
+        height: 650px;
+    }
+    .grid{
+    margin-top: -150px;    
+    width: 350px;
+   
+    
+   }
+   .btn2{
+  width: 380px;
+  margin-bottom: 10px;
+  margin-left: -20px;
+   }
+   .button{
+    margin-top: 30px;
+   }
+}   
+   .btn3{
+    background-color: palevioletred;
+   margin-top: 20px;
+   border: none;
+   }
+   .btn3 a{
+    text-decoration: none;
+    color: #fff;
+   }
+   .btn3 a:hover{
+    color: rgb(76, 7, 30);
+   }
+</style>
+<body>
+  
+   <section class="s1">
+    <div style="background-color: rgba(241, 236, 236, 0.572);" class="container">
+        <div class="heading2">
+            <img src="logo3.png" alt="" width="70rem">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-brand brand">
+            <a class="nav-link" href="#">Fragrance</a>
+  
+          </li>
+        </ul>
+        </div>
+            <h3 class="heading" style="text-align: center;">Sign In to Your Account</h3><br>
+           
+            <h6>What is your e-mail address?</h6>
+            <label for="email">My e-mail address is: &nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" placeholder="enter email"><br><br>
+            <h6 class="h6 two">Do you have a fragrance.com password?</h6>
+            <input type="radio" name="password">
+            <label for="password">No,I am a new customer</label><br>
+            <input type="radio" name="password" id="">
+            <label for="password">Yes,I have a password</label>
+            <input type="text"><br>
+           <a class="link" href="#">Forgot your password?</a>
+           <button type="submit" class="btn btn-lg btn1">SIGN IN USING OUR SECURED SERVER</button>
+     </div>
+   </section>
+  
+   <div class="container grid">
+    <p>Or login with :</p>
+      <button type="button" class="btn btn-primary btn2"><i class=" fa-brands fa-facebook"></i>&nbsp;Sign in with <b>Facebook</b></button>
+      <button type="button" class="btn btn-danger btn2"><i class="fa-brands fa-google"></i>&nbsp;Sign in with <b>Google</b></button>
+     <div class="button">
+        <button type="menu" class="btn btn-outline-light btn3"><a href="index.html">Back to Home</a></button>
+
+     </div>
+</div>
+     
+
+
+
+
+
+
+
+
+
+
+    <script src="bootstrap-5.2.0-beta1-dist/bootstrap-5.2.0-beta1-dist/js/bootstrap.js"></script>
+</body>
+</html>
